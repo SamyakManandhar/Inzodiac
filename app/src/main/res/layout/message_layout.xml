@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:id="@+id/llmain"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="@dimen/_65sdp"
+            android:id="@+id/img"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_height="@dimen/_65sdp"
+            android:src="@drawable/back"/>
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Angela"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/_12sdp"
+                android:layout_marginRight="@dimen/_50sdp" />
+
+            <TextView
+                android:id="@+id/tv_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="Lorem Ipsum has been the de.."
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginEnd="@dimen/_50sdp"
+                android:textColor="@color/black2"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_50sdp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/_10sdp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvtime"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textColor="@color/colorGray"
+            android:text="10:20 AM"
+            android:gravity="end"
+            android:fontFamily="@font/montserrat_medium"
+            android:textSize="@dimen/_8sdp"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/onoffstatus"
+        android:layout_width="@dimen/_5sdp"
+        android:layout_height="@dimen/_5sdp"
+        app:srcCompat="@drawable/ic_ellipse"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp" />
+</RelativeLayout>

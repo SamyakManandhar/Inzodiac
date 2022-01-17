@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none"
+        tools:context=".ui.activity.loginmodule.LoginActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_170sdp"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/ic_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_centerHorizontal="true"
+                            card_view:srcCompat="@drawable/textlogo" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/header"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/header1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:text="Safety"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Before planning to meet with a user on Inzodiac.com in person for the first time, be sure you feel comfortable with the person. It's important to communicate and spend time speaking on the phone before you meet to feel confident the person is who they portray themselves to be.  Here are some tip to assist you with staying safe:"
+                    android:textColor="@color/black2"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:textSize="@dimen/_10sdp" />
+
+
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="@dimen/_25sdp">
+
+                 <ImageView
+                     android:layout_width="@dimen/_8sdp"
+                     android:layout_height="@dimen/_8sdp"
+                     android:background="@drawable/ic_dot"
+                     android:backgroundTint="@color/black"
+                     android:layout_marginTop="@dimen/_5sdp"/>
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+
+
+                     android:gravity="start"
+                     android:fontFamily="@font/montserrat_medium"
+                     android:text="Meet in a public place.  It's best to meet during the day and in a place where there are many people around"
+                     android:textColor="@color/black2"
+                     android:layout_marginStart="@dimen/_20sdp"
+                     android:layout_marginEnd="@dimen/_15sdp"
+                     android:textSize="@dimen/_10sdp" />
+
+
+             </LinearLayout>
+
+                ///222222
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Tell someone where you are going.  Tell a friend or family member where and when you are going on a date.
+"
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+                ///3333333333333
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Bring a phone with you.  It's important to keep a phone with you in case of emergency.
+"
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+                //444444444
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Do not share personal information.  Avoid giving details about where you work or live.
+"
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+                //555555
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Have a backup plan.  Always have a backup plan in case things do not go the way you expected. For example, tell a friend to call you half an hour into your date and check up on you, but make sure to be discreet when answering."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+                ///666666666666666666
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="Tell someone where you are going.  Tell a friend or family member where and when you are going on a date.
+"
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+                //777777777777
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Avoid drinking alcohol.  You do not want to impair your judgement when you are on a date with someone you don't know very well."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+                ///8888888888888888888888
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Follow your instincts.  If something feels off or you are uncomfortable at any 	time do not hesitate to end the date early."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:visibility="invisible"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Always Remember..."
+                        android:textColor="#1E2B71"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_12sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+                /////11111111
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="There is no substitute for acting with caution when communicating with any stranger who wants to meet you."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+                </LinearLayout>
+
+
+
+                ////2222222222222
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+
+android:text="Never include your last name, e-mail address, home address, phone number, place of work, or any other identifying information in your internet profile or initial e-mail messages. Stop communicating with anyone who pressures you for 	personal or financial information or attempts in any way to trick you into revealing it.
+"                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+                ///33333333
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="If you choose to have a face-to-face meeting with another member, always tell 	someone in your family or a friend where you are going and when you will return. Never agree to be picked up at your home. Always provide your own transportation to and from your date and meet in a public place with many people around."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+                ///44444444444
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Anyone who is able to commit identity theft can also falsify a dating profile."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+
+
+                ///5555555555555555
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="There is no substitute for acting with caution when communicating with any stranger who wants to meet you.
+"
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="Never include your last name, e-mail address, home address, phone number, place of work, or any other identifying information in your Internet profile or initial e-mail messages. Stop communicating with anyone who pressures you for 	personal or financial information or attempts in any way to trick you into revealing it."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+                ////7777777777777777
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_25sdp">
+
+                    <ImageView
+                        android:layout_width="@dimen/_8sdp"
+                        android:layout_height="@dimen/_8sdp"
+                        android:background="@drawable/ic_dot"
+                        android:backgroundTint="@color/black"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:fontFamily="@font/montserrat_medium"
+
+                        android:text="If you choose to have a face-to-face meeting with another member, always tell 	someone in your family or a friend where you are going and when you will return. Never agree to be picked up at your home. Always provide your own transportation to and from your date and meet in a public place with many people around."
+                        android:textColor="@color/black2"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:textSize="@dimen/_10sdp" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+</layout>

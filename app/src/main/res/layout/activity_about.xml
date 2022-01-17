@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="none"
+        tools:context=".ui.activity.loginmodule.LoginActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_170sdp"
+                        android:scaleType="fitXY"
+                        card_view:srcCompat="@drawable/ic_shape" />
+
+                    <RelativeLayout
+                        android:id="@+id/header"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_15sdp">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_80sdp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_centerHorizontal="true"
+                            card_view:srcCompat="@drawable/textlogo" />
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/header"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/header1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/montserrat_semibold"
+                                android:text="About"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/_15sdp" />
+
+
+                        </LinearLayout>
+
+
+
+
+
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="This is going to be a lively month on the people front and there are a number of reasons for this. Firstly, the Sun is in your star sign Aquarius up until the 19th and for many of you, it’s your birthday month."
+                    android:textColor="@color/black2"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:textSize="@dimen/_10sdp" />
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="This is always a positive time to put yourself and your own needs first. Look after no. 1 and line up some new personal goals and aims. It’s your turn in the cosmic spotlight to shine bright. The Full Moon which peaks over the weekend of the 8th/9th is gorgeous for celebration and for love. It falls in Leo, your opposite star sign. Make the most of this celebratory planetary energy and do something special with the one you love. Love planet, Venus, also picks up a fire sign this month as it moves in to Aries and your communication sector on the 7th, where it remains until early March. This is gorgeous for going on a date or meeting new people. Also, it’s an ideal time to get out in your local community, make new friends, visit new places and use your networks and connections. It’s often a busy time of year when the personal planets start to move through Aries, whether you’re catching up with old and new friends or you have other reasons to widen your network. If you’re involved in sales, marketing or online media, this can be an exciting time for you. Or, you may be involved in activities which tap into your humanitarian and egalitarian nature. You can work at bringing people together this month, whatever your cause. You’re fired up and ready for action. Action planet Mars has its part to play he"
+                    android:textColor="@color/black2"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:textSize="@dimen/_10sdp" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+</layout>

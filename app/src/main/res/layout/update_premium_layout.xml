@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_10sdp"
+    android:elevation="@dimen/_3sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:weightSum="3"
+        android:id="@+id/ll_main"
+        android:background="@drawable/all_cornor_white_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:id="@+id/ll_leftbox"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_paymentsymbol_static"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$"
+                android:textColor="@color/colorGray1"
+                android:fontFamily="@font/montserrat_semibold"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:textSize="@dimen/_10sdp"
+                />
+
+                <TextView
+                    android:id="@+id/tv_perweek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.86"
+                    android:textColor="@color/colorGray1"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textSize="@dimen/_13sdp" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_static_perweek"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="per month"
+                android:textColor="@color/colorGray1"
+                android:textSize="@dimen/_11sdp" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/_15sdp">
+
+
+            <TextView
+                    android:id="@+id/tv_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Months"
+                    android:textColor="@color/colorGray1"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:textSize="@dimen/_13sdp"
+                    />
+
+
+            <TextView
+                android:id="@+id/tv_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Payment Of $23.99"
+                android:textColor="@color/colorGray1"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="@dimen/_11sdp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_mostpopular"
+            android:visibility="gone"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/most_popular_tag"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

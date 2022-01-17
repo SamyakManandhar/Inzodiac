@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/setting_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="@dimen/_5sdp"
+
+            app:cardElevation="5dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_20sdp">
+
+                    <TextView
+                        android:id="@+id/cat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="You can upgrade to weekly horoscope \n choosing one of the ways :"
+                        android:textColor="@color/black2"
+                        android:textSize="@dimen/_12sdp"
+
+                        />
+
+                 
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="top"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:layout_gravity="center|center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/no"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_marginEnd="@dimen/_20sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginRight="@dimen/_10sdp">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:id="@+id/iv_premium"
+
+
+                            android:background="@drawable/ic_ellipse"
+                            android:backgroundTint="@color/colorPurple"
+                            android:src="@drawable/ic_premium_white"
+                            android:padding="@dimen/_14sdp"
+                            />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@android:color/transparent"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/colorGray1"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:text="Upgrade To Premium " />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/yes"
+                        android:orientation="vertical"
+                        android:layout_width="@dimen/_100sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:id="@+id/iv_token"
+
+                            android:background="@drawable/ic_group"
+
+                            />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:background="@android:color/transparent"
+                            android:drawablePadding="@dimen/_10sdp"
+                            android:fontFamily="@font/montserrat_medium"
+                            android:gravity="center"
+                            android:textSize="@dimen/_15sdp"
+                            android:textColor="@color/colorGray1"
+                            android:text="Buy Tokens" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+</layout>

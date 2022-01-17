@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.alphaa.inzodiac">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".app.InZodiaApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InZodia"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.activity.phoneloginmodule.PhoneLoginActivity"></activity>
+        <activity android:name=".ui.activity.editphonemodule.EditPhoneActivity" />
+        <activity android:name=".ui.activity.phoneverification.PhoneVerificationActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".ui.activity.notification.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.contactus.ContactUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SafetyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.likerequest.LikeRequestActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".billing.PaymentDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".staticdata.ZodaicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.quizmodule.QuizAcceptRegectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.quizmodule.QuizStareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.quizmodule.QuizChallengeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.quizmodule.QuizInstructionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.quizmodule.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.forgotmodule.ForgotActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.luckyandunlucky.LuckyandunluckyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.aboutmodule.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.chatmodule.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.fragment.horomonthmodule.HoroMonthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.categorymodule.CategoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.detailmodule.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabmodule.activity.tabmodule.TabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.stepcomplete.StepCompleteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.detailaboyou.DetailAboYouActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.aboutself.AboutSelfActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.signupmodule.SignupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.loginmodule.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.letstart.LetStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.splashmodule.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.editprofile.EditProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.likerequest.LikeRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.action"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".gallery.activities.AlbumSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".gallery.activities.ImageSelectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.alphaa.inzodiac.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <service
+            android:name=".firebase.MyFirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false"
+            android:permission="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

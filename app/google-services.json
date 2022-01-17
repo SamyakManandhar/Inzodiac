@@ -1,0 +1,136 @@
+{
+  "project_info": {
+    "project_number": "365114895926",
+    "firebase_url": "https://inzodiac-287511-default-rtdb.firebaseio.com",
+    "project_id": "inzodiac-287511",
+    "storage_bucket": "inzodiac-287511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365114895926:android:8018097727b812805e7297",
+        "android_client_info": {
+          "package_name": "com.alpha.inzodiac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNfTttow8HpwEt50-Wickp7mzUQzcr8Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "365114895926-v7si2644e7t1ljlgd6irob5dfvbnh5pr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inzodiac.alphawizz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365114895926:android:8a04fabf204b49ea5e7297",
+        "android_client_info": {
+          "package_name": "com.alphaa.inzodiac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365114895926-9spbjc4ad0m29qp0ifr4mvdl1up1nqql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alphaa.inzodiac",
+            "certificate_hash": "15d7a8560553a2e2b990f4ad82462a3fafb4b7d4"
+          }
+        },
+        {
+          "client_id": "365114895926-fapeplffihrbjo42biruo8i1njsg4i1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.alphaa.inzodiac",
+            "certificate_hash": "b4bfc31cb90ea116c560dcc3c5cbbf56ce0f0346"
+          }
+        },
+        {
+          "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNfTttow8HpwEt50-Wickp7mzUQzcr8Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "365114895926-v7si2644e7t1ljlgd6irob5dfvbnh5pr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inzodiac.alphawizz"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365114895926:android:80d3b30f2d81c19b5e7297",
+        "android_client_info": {
+          "package_name": "com.inzodiac.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNfTttow8HpwEt50-Wickp7mzUQzcr8Pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365114895926-78prgk3hf1lh1s76jekdujrofj98vjq4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "365114895926-v7si2644e7t1ljlgd6irob5dfvbnh5pr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.inzodiac.alphawizz"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-7358942443157192~3927721936"
+    }
+  ],
+  "configuration_version": "1"
+}

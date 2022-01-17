@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.aboutself.AboutSelfActivity">
+
+                    <RelativeLayout
+                        android:id="@+id/kkkk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <FrameLayout
+                            android:id="@+id/frame"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:visibility="gone"
+                            android:background="@color/white"/>
+
+
+                        <LinearLayout
+                            android:id="@+id/rl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_160sdp"
+                                    android:scaleType="fitXY"
+                                    card_view:srcCompat="@drawable/ic_shape" />
+
+                                <RelativeLayout
+                                    android:id="@+id/header"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/_15sdp">
+
+
+                                    <ImageView
+                                        android:layout_width="@dimen/_80sdp"
+                                        android:layout_height="@dimen/_80sdp"
+                                        android:layout_centerHorizontal="true"
+                                        card_view:srcCompat="@drawable/textlogo" />
+
+                                    <ImageView
+                                        android:id="@+id/ivback"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_margin="@dimen/_15sdp"
+                                        android:scaleType="centerCrop"
+                                        card_view:srcCompat="@drawable/ic_back" />
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/header"
+                                    android:layout_marginStart="@dimen/_15sdp"
+                                    android:layout_marginEnd="@dimen/_15sdp"
+                                    android:layout_marginTop="@dimen/_10sdp">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <TextView
+                                            android:id="@+id/western"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/montserrat_semibold"
+                                            android:text="@string/editprofile"
+                                            android:textColor="@color/white"
+                                            android:textSize="@dimen/_15sdp" />
+                                    </RelativeLayout>
+                                </RelativeLayout>
+
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/kkkk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_cornor"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+                    </FrameLayout>
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_one_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_two_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+
+                    </FrameLayout>
+
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_three_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+
+                    </FrameLayout>
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_four_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+
+                    </FrameLayout>
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_five_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="@dimen/_10sdp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imgv_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/photo_bg" />
+
+                    </FrameLayout>
+                    <ImageView
+                        android:layout_gravity="right"
+                        android:id="@+id/imgv_six_close"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_close_icon" />
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_18sdp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/orientation"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            //spinner
+            <RelativeLayout
+                android:id="@+id/rlintnet"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back"
+                >
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_orientation"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="orientation"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tvori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/looking_for"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_lookingfor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="Looking For"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tvlook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/intrested_in"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_intrestedin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/intrested_in"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_intrestedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/ethnicity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_ethenicity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/ethnicity"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_ethenicity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/exercise"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_exercise"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/exercise"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_exercise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/preferred_horoscope_type"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_horoscope"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/preferred_horoscop_type"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_horoscope"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/relationship"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_relationship"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/relationship"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_relationship"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/wants_children"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_wantchild"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/wants_children"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_wantchild"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/do_you_smoke"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_doyousmoke"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/do_you_smoke"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_doyousmoke"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/alcohol"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <androidx.appcompat.widget.AppCompatSpinner
+                    android:id="@+id/sp_doyoudrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:text="@string/do_you_drinks"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginLeft="@dimen/_15sdp" />
+
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    card_view:srcCompat="@drawable/ic_dropdown_arrow"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_15sdp" />
+
+
+                <TextView
+                    android:id="@+id/tv_doyoudrink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/_35sdp"
+                    android:layout_marginStart="@dimen/_15sdp"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="@string/about"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/transperent_boarder_back">
+
+                <EditText
+                    android:backgroundTint="@android:color/transparent"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:text="vhjgvjdfgv gvfd"
+                    android:inputType="text|textMultiLine"
+                    android:id="@+id/tv_about"
+                    android:lines="10"
+                    android:minLines="5"
+                    android:gravity="top|left"
+                    android:maxLines="15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/montserrat_medium"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="@color/black2"
+                    android:textSize="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_30sdp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/purple_btn_bg"
+                android:fontFamily="@font/montserrat_medium"
+                android:text="@string/update" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+    </ScrollView>
+</layout>
